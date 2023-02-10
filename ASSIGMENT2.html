@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right;
+width: 570px;
+height: 270px;
+border: 1px solid white; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main main right'
+    'footer footer footer footer footer footer';
+  gap: 10px;
+  background-color:;
+  padding: 10px;
+  
+}
+
+.inner{
+    
+    display: inline-grid;
+  grid-template-columns: auto auto auto;
+  border:1px solid white;
+}
+.first{
+    height: 100px;
+    width: 100%;
+    padding-right: 150px;
+    padding-left: 10px;
+}
+
+.second{
+    height: 100px;
+    width: 100%;
+    padding-right: 200px;
+    
+}
+.third{
+    height: 100px;
+    width: 100%;
+    padding-right:75px;
+}
+.fourth{
+    height: 100px;
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.fifth{
+    height: 100px;
+    width: 100%;
+    padding-top: 30px;
+}
+.six{
+    height: 100px;
+    width: 100%;
+    padding-top: 30px;
+}
+.detail{
+    height:40px ;width:572px ;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px ;
+    font-size: 20px;
+}
+.public{
+    height: 35px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.view{
+    height:35px;
+    width:200px;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+
+
+}
+.hr{
+    height: 35px;
+    width:200px;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+
+
+}
+.network{
+    height: 35px;
+    width:200px;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+padding-top: 10px;
+
+
+
+}
+</style>
+</head>
+<body>
+
+
+<div class="grid-container">
+  <!-- <div class="item1">Header</div> -->
+  <div class="item2">
+    <div><div class="public">Public</div><ul><li>Link 1</li><li>Link 2</li></div>
+        
+   
+            <div><div class="view">View</div><ul><li>Link 1</li><li>Link 2</li><li>Link 3</li>
+                <li>Link 4</li>
+                <li>Link 5</li>
+                <li>Link 6</li></div>
+                <div><div class="hr">HR</div><ul><li>Address Details</li><li>Family Details</li></div>
+                    <div><div class="network">Network Details</div><ul><li>Vhical Details</li><li>Machine Details</li></div>
+       
+  </div>
+  <div class="item3"></div>  
+  <div class="item4">
+    <div class="detail"><strong>Details</strong></div>
+        <div class="inner" style="background-color: white;">
+            <div class="first"><p><strong>Name:</strong></p>
+                <p><strong>Value:</strong></p>
+                <p><strong>Extra</strong></p></div>
+     
+        
+            <div class="second"><p><strong>Name:</strong></p>
+                <p><strong>Value:</strong></p>
+                <p><strong>Extra</strong></p></div>
+            
+
+            <div class="third"><p><strong>Name:</strong></p>
+                <p><strong>Value:</strong></p>
+                <p><strong>Extra</strong></p></div>
+    
+
+            <div class="fourth"><p><strong>Name:</strong></p>
+                <p><strong>Value:</strong></p>
+                <p><strong>Extra</strong></p></div>
+
+
+            <div class="fifth"><p><strong>Name:</strong></p>
+                <p><strong>Value:</strong></p>
+                <p><strong>Extra</strong></p></div>
+            
+
+            <div class="six"><p><strong>Name:</strong></p>
+                <p><strong>Value:</strong></p>
+                <p><strong>Extra</strong></p></div>
+        
+
+                     
+        </div>
+    
+
+    
+  </div>
+  
+
+</body>
+</html>
+
+
